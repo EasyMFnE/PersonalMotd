@@ -1,0 +1,47 @@
+#############################################################
+# This file is part of the PersonalMotd plugin by EasyMFnE. #
+#############################################################
+
+# Placeholder text that will be replaced with the player's name.
+name-tag-placeholder: "{PLAYER}"
+
+# Name that will be used if the player does not have a name on file.
+name-tag-default: "Guest"
+
+# Icon Modes:
+#   PLAYER (Shows icon of the player getting the MOTD)
+#   DEATH (Shows icon of the most recent player to die)
+#   DEATHBAN (Shows icon of the most recent player deathbanned)
+#   RANDOM (Shows icon of a random online player)
+icon-mode: PLAYER
+
+# Base icon for customizations and default.  Path relative to server root.
+base-icon: "server-icon.png"
+
+# Skin URL for fetching player skins.
+skin-url: "http://s3.amazonaws.com/MinecraftSkins/{PLAYERNAME}.png"
+
+# Location of the face texture in the skin.
+skin-face-location:
+  x: 8
+  y: 8
+  w: 8
+  h: 8
+
+# Location of the hat (front) texture in the skin.
+skin-hat-location:
+  x: 40
+  y: 8
+  w: 8
+  h: 8
+
+# Transformations to apply to the head image before overlaying onto base icon.
+head-transform:
+  # Scaling factor (integer)
+  scale: 8
+  # Rotation factor (integer, number of quadrants to rotate clockwise)
+  rotate: 0
+  # Pixels to shift the head
+  shift:
+    x: 0
+    y: 0

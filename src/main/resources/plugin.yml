@@ -1,0 +1,25 @@
+name: PersonalMotd
+version: '1.0.0-alpha'
+description: Personalize the server list icon and message for each player.
+
+author: EasyMFnE
+
+database: false
+main: net.easymfne.personalmotd.PersonalMotd
+load: STARTUP
+
+commands:
+  personalmotd:
+    aliases: [pmotd]
+    description: PersonalMotd main command
+    permission: personalmotd.admin
+    permission-message: 'Unknown command. Type "/help" for help.'
+    usage: |
+           /pmotd address -- List all mapped addresses
+           /pmotd reload  -- Reload configuration from disk
+
+permissions:
+  personalmotd.admin:
+    default: op
+    description: Allows access to admin functionality
+

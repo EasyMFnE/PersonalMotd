@@ -1,0 +1,6 @@
+[2014-07-15] v1.0.0-alpha
+  - Added options for additional icon modes (DEATH, DEATHBAN, RANDOM)
+  - Source cleanup and documentation
+
+[2014-07-14] v0.0.0
+  - Initial experimentation/testing release

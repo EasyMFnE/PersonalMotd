@@ -1,0 +1,13 @@
+# Eclipse stuff
+/.classpath
+/.project
+/.settings
+
+# maven
+/build.xml
+/target
+/maven.txt
+/dependency-reduced-pom.xml
+
+# temp files
+*~
